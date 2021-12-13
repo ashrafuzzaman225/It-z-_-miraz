@@ -1,0 +1,77 @@
+/*-------------------------------------------------------*/
+/* Pagination
+/*-------------------------------------------------------*/
+.pagination,
+.post-pagination {
+	margin-bottom: 24px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination span,
+.pagination a,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.post-page-numbers {
+	font-size: 0.875rem;
+	display: inline-block;
+	padding: 0 4px;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	margin: 0 2px 8px;
+	text-align: center;
+	color: $text-color;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: #fff;
+	border-radius: 50%;
+	list-style: none;
+	@include transition($transition-all);
+
+	&:not(span):hover,
+	&:not(span):focus {
+		background-color: $heading-color;
+		border-color: transparent;
+		color: #fff;
+	}
+
+	&.current {
+		background-color: $heading-color;
+		color: #fff;
+		border-color: transparent;
+	}
+
+	i {
+		display: inline-block;
+		font-size: 0.9375rem;
+		position: relative;
+		top: 1px;
+
+		.rtl & {
+			transform: rotateY(180deg);
+		}
+	}
+}
+
+.woocommerce nav.woocommerce-pagination .next,
+.woocommerce nav.woocommerce-pagination .prev {
+	font-size: 0;
+	padding: 0;
+
+	&::before,
+	&::after {
+		font-family: "amela";
+		font-size: 1rem;
+	}
+}
+
+.woocommerce nav.woocommerce-pagination .next::before {
+	content: "\e902" /*rtl:\e901*/;
+}
+
+.woocommerce nav.woocommerce-pagination .prev::before {
+	content: "\e901" /*rtl:\e902*/;
+}

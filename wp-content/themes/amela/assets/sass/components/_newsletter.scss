@@ -1,0 +1,82 @@
+/*-------------------------------------------------------*/
+/* Newsletter
+/*-------------------------------------------------------*/
+.newsletter {
+	&__body {
+		@include bp-sm-up {
+			display: flex;
+		}
+	}
+
+	&__img-holder {
+		flex: 1 0 50%;
+	}
+
+	&__img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+
+		@include bp-sm-down {
+			height: 260px;
+		}
+	}
+
+	&__content {
+		display: flex;
+		align-items: center;
+		flex: 1 0 50%;
+		padding: 90px 70px;
+		background-color: $primary-color--light;
+
+		&-inner {
+			flex: 1 0 0;
+		}
+	}
+
+	&__title {
+		font-size: 2.3125rem;
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		color: $text-color--light;
+	}
+
+	.form-group {
+		flex-wrap: wrap;
+		flex: 1 0 0;
+
+		input {
+			margin-bottom: 0;
+		}
+
+		&.eversor-field-type-input {
+			flex-basis: 100%;
+			margin-bottom: 24px;
+		}
+
+		input[type="email"] {
+			padding-left: 0;
+			border: 0;
+			border-radius: 0;
+			border-bottom: 1px solid $heading-color;
+			background-color: transparent;
+		}
+
+		input[type="email"]:focus,
+		input[type="text"]:focus {
+			border-bottom-color: $primary-color;
+		}
+	}
+
+	.consent-checkbox {
+		margin-top: 20px;
+		margin-bottom: 18px;
+	}
+}
+
+// Single post
+.single-post__newsletter {
+	margin-top: 64px;
+}

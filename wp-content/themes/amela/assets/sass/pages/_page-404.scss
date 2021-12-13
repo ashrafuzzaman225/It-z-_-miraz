@@ -1,0 +1,70 @@
+/*-------------------------------------------------------*/
+/* Page 404
+/*-------------------------------------------------------*/
+.page-404 {
+	&-section {
+		padding: 80px 0;
+
+		@include bp-lg-up {
+			padding: 120px 0;
+		}
+	}
+
+	.container {
+		overflow: hidden;
+	}
+
+	&__container {
+		background-color: #fff;
+	}
+
+	&__info {
+		padding: 40px;
+		text-align: center;
+	}
+
+	&__img {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&__title {
+		font-size: 2rem;
+		margin-bottom: 34px;
+
+		@include bp-lg-up {
+			font-size: 2.3125rem;
+		}
+	}
+
+	&__text {
+		font-size: 1.5rem;
+		color: $text-color--light;
+		max-width: 430px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 68px;
+	}
+
+	&__number {
+		font-size: 28rem;
+		position: absolute;
+		top: 20%;
+		right: 0;
+		color: $border-color;
+		opacity: 0.22;
+
+		@include bp-lg-up {
+			font-size: 43.75rem;
+			top: -30%;
+			right: -10%;
+		}
+
+		@include bp-md-down {
+			font-size: 16rem;
+			top: 40%;
+			right: 50%;
+			transform: translateX(50%);
+		}
+	}
+}

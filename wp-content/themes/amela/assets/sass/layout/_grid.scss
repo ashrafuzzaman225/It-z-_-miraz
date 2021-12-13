@@ -1,0 +1,122 @@
+/*-------------------------------------------------------*/
+/* Grid
+/*-------------------------------------------------------*/
+.container {
+	@include bp-lg-down {
+		padding-left: $grid-gutter-width;
+		padding-right: $grid-gutter-width;
+	}
+
+	&.container--wider {
+		max-width: 1560px;
+	}
+}
+
+.container-semi-fluid {
+	padding: 0 50px;
+
+	@include bp-md-down {
+		padding: 0 15px;
+	}
+}
+
+/* Sidebar
+/*-------------------------------------------------------*/
+@include bp-lg-up {
+	.sidebar:not(.elementor-column) {
+		max-width: 320px;
+		flex: 0 0 320px;
+	}
+
+	.amela-left-sidebar {
+		.content {
+			order: 2;
+		}
+	}
+}
+
+@include bp-lg-up {
+	.amela-left-sidebar {
+		.content {
+			padding-left: 50px;
+		}
+	}
+
+	.amela-right-sidebar {
+		.content {
+			padding-right: 50px;
+		}
+	}
+}
+
+/* Sections
+-------------------------------------------------------*/
+.blog-section,
+.search-results-section,
+.archive-section,
+.page-section,
+.shop-section {
+	padding: 70px 0;
+}
+
+.single-product .shop-section {
+	padding-bottom: 30px;
+}
+
+/* Vertical Header
+-------------------------------------------------------*/
+.eversor-header-vertical {
+	@include bp-lg-up {
+		.container {
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+}
+
+/* Flexbox
+-------------------------------------------------------*/
+.flex-parent {
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+}
+
+.flex-child {
+	flex: 1 0 0;
+}
+
+/* Row Gutters
+-------------------------------------------------------*/
+.row-8 {
+	margin: 0 -4px;
+
+	& > div {
+		padding: 0 4px;
+	}
+}
+
+.row-10 {
+	margin: 0 -5px;
+
+	& > div {
+		padding: 0 5px;
+	}
+}
+
+.row-16 {
+	margin: 0 -8px;
+
+	& > div {
+		padding: 0 8px;
+	}
+}
+
+.row-40 {
+	margin: 0 -20px;
+
+	& > div {
+		padding: 0 20px;
+	}
+}

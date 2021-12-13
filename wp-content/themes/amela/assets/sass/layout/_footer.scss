@@ -1,0 +1,109 @@
+/*-------------------------------------------------------*/
+/* Footer
+/*-------------------------------------------------------*/
+.footer {
+	background-color: $bg-dark;
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__widgets {
+		padding: 100px 0 40px;
+		border-bottom: 1px solid $border-color--dark;
+	}
+}
+
+/* Footer Colors
+-------------------------------------------------------*/
+.footer {
+	.widget-title,
+	.elementor-widget-wp-widget-recent-posts a,
+	.widget_recent_entries a,
+	.elementor-widget-wp-widget-nav_menu a,
+	.widget_nav_menu a,
+	.elementor-widget-wp-widget-categories a,
+	.widget_categories a,
+	.elementor-widget-wp-widget-pages a,
+	.widget_pages a,
+	.elementor-widget-wp-widget-pages-archives a,
+	.widget_archive a,
+	.elementor-widget-wp-widget-meta a,
+	.widget_meta a,
+	.widget_recent_comments a,
+	.elementor-widget-wp-widget-recent-comments a,
+	.widget_rss .rsswidget,
+	&__widgets,
+	.calendar_wrap caption,
+	#wp-calendar thead th {
+		color: #fff;
+	}
+
+	.social svg {
+		fill: #fff;
+	}
+
+	.calendar_wrap caption {
+		background-color: transparent;
+	}
+
+	.widget_recent_comments,
+	.rssSummary {
+		color: $text-color--light;
+	}
+
+	.social,
+	.widget_rss li,
+	.elementor-widget-wp-widget-recent-comments li,
+	.elementor-widget-wp-widget-recent-posts li,
+	.widget_recent_comments li,
+	.widget_recent_entries li,
+	.calendar_wrap caption,
+	.calendar_wrap span,
+	.calendar_wrap td,
+	.calendar_wrap th {
+		border-color: $border-color--dark;
+	}
+
+	.widget_product_tag_cloud a,
+	.widget_tag_cloud .tagcloud a,
+	.widget_tag_cloud .wp-block-tag-cloud a {
+		background-color: #292929;
+	}
+}
+
+/* Footer Widgets
+-------------------------------------------------------*/
+.footer__widgets {
+	.widget_categories li,
+	.widget_pages li,
+	.widget_archive li,
+	.widget_meta li,
+	.widget_nav_menu li {
+		padding: 3px 0;
+		border: 0 !important;
+	}
+
+	.widget .sub-menu li:first-child,
+	.widget .children li:first-child {
+		padding-top: 0;
+	}
+}
+
+/* Bottom Footer
+-------------------------------------------------------*/
+.footer__bottom {
+	padding: 32px 0;
+	font-size: 0.875rem;
+	color: $text-color--light;
+
+	a {
+		color: inherit;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}

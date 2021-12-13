@@ -1,0 +1,464 @@
+/*-------------------------------------------------------*/
+/* Widgets
+/*-------------------------------------------------------*/
+.widget {
+	a {
+		color: $text-color--light;
+
+		&:hover,
+		&:focus {
+			color: $primary-color;
+		}
+	}
+
+	.footer &,
+	.sidebar &,
+	.elementor-widget-sidebar & {
+		margin-bottom: 48px;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	&-title {
+		font-size: 0.875rem;
+		font-family: $body-font;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	.sub-menu,
+	.children {
+		padding-top: 4px;
+
+		li:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+.menu-item {
+	list-style: none;
+}
+
+.social svg {
+	height: 16px;
+}
+
+/* Categories / Archives / Pages / Meta / Nav Menu
+----------------------------------------------------------------*/
+.elementor-widget-categories li,
+.widget_categories li,
+.elementor-widget-archive li,
+.widget_archive li,
+.elementor-widget-pages li,
+.widget_pages li,
+.elementor-widget-meta li,
+.widget_meta li,
+.widget_nav_menu li {
+	position: relative;
+	padding-left: 16px !important;
+
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		background-color: #e7e7e7;
+		margin-top: 7px;
+	}
+}
+
+/* Recent Entries, Comments
+----------------------------------------------------------------*/
+.elementor-widget-wp-widget-recent-posts li,
+.widget_recent_entries li,
+.elementor-widget-wp-widget-recent-comments li,
+.widget_recent_comments li {
+	padding: 10px 0;
+	font-size: 0.875rem;
+	border-bottom: 1px solid $border-color;
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+
+.elementor-widget-wp-widget-recent-posts,
+.widget_recent_entries {
+	.post-date {
+		display: block;
+		font-size: 0.8125rem;
+		opacity: 0.7;
+		color: lighten($text-color, 30%);
+	}
+}
+
+/* Archives / Categories / Pages / Nav Menu / Meta
+-------------------------------------------------------*/
+.elementor-widget-wp-widget-pages-archives li,
+.widget_archive li,
+.elementor-widget-categories li,
+.widget_categories li,
+.elementor-widget-wp-widget-pages li,
+.widget_pages li,
+.elementor-widget-wp-widget-nav_menu li,
+.widget_nav_menu li,
+.elementor-widget-wp-widget-meta li,
+.widget_meta li {
+	font-size: 0.875rem;
+	position: relative;
+	padding-bottom: 4px;
+}
+
+/* Archives
+-------------------------------------------------------*/
+.elementor-widget-wp-widget-pages-archives li,
+.widget_archive li,
+.elementor-widget-categories li,
+.widget_categories li {
+	color: $text-color--light;
+}
+
+/* Widget RSS
+-------------------------------------------------------*/
+.widget_rss {
+	li {
+		padding: 16px 0;
+		border-bottom: 1px solid $border-color;
+
+		&:first-child {
+			padding-top: 0;
+		}
+	}
+
+	.rsswidget {
+		color: $heading-color;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+
+	.rss-date {
+		display: block;
+		color: $meta-color;
+		font-size: 0.8125rem;
+		margin: 6px 0 12px;
+	}
+
+	.rssSummary {
+		font-size: 0.875rem;
+		margin-bottom: 8px;
+
+		& + cite {
+			font-size: 0.8125rem;
+			color: $meta-color;
+		}
+	}
+
+	.widget-title .rsswidget:last-child {
+		vertical-align: middle;
+		margin-left: 5px;
+		margin-top: 2px;
+		display: inline-block;
+	}
+}
+
+/* Widgets select (Categories, Archives, Text Widget)
+-------------------------------------------------------*/
+.widget_categories,
+.widget_archive,
+.widget_text {
+	select {
+		margin-bottom: 0;
+	}
+}
+
+/* Widget Calendar
+-------------------------------------------------------*/
+.calendar_wrap {
+	table {
+		width: 100%;
+	}
+
+	th,
+	td,
+	span {
+		display: table-cell;
+		font-size: 0.875rem;
+		line-height: 1;
+		text-align: center;
+	}
+
+	caption {
+		caption-side: top;
+		text-align: center;
+		background-color: $bg-light;
+		margin-bottom: 0;
+		border: 1px solid $border-color;
+		border-bottom: 0;
+		font-weight: 500;
+	}
+
+	.pad {
+		background: none;
+	}
+
+	.wp-calendar-nav {
+		padding: 10px 5px;
+		display: flex;
+		justify-content: space-between;
+
+		span {
+			flex: 1;
+		}
+	}
+
+	tfoot #prev,
+	.wp-calendar-nav-prev {
+		text-align: left;
+	}
+
+	tfoot #next,
+	.wp-calendar-nav-next {
+		text-align: right;
+	}
+}
+
+/* Widget Profile
+-------------------------------------------------------*/
+.widget-profile {
+	background-color: $bg-light;
+	padding: 32px;
+	border-radius: 5px;
+
+	&__img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__author-name {
+		font-size: 0.875rem;
+	}
+
+	&__description {
+		margin-top: 10px;
+		margin-bottom: 24px;
+		color: $text-color--light;
+	}
+}
+
+/* Widget Popular Posts
+-------------------------------------------------------*/
+.widget-popular-posts {
+	&__list > li {
+		padding: 24px 0;
+		border-bottom: 1px solid $border-color;
+
+		&:first-child {
+			padding-top: 12px;
+		}
+
+		&:last-child {
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+	}
+
+	&__article {
+		display: flex;
+	}
+
+	&__img-holder {
+		flex: 0 0 48px;
+		max-width: 48px;
+		position: relative;
+		margin-left: auto;
+	}
+
+	&__thumb-container {
+		border-radius: 5px;
+		overflow: hidden;
+	}
+
+	&__number {
+		font-size: 0.875rem;
+		line-height: 1;
+		margin-right: 16px;
+	}
+
+	.widget-popular-posts__entry-title {
+		font-size: 0.875rem;
+		line-height: 1.4;
+		margin-bottom: 0;
+		margin-right: 15px;
+
+		a {
+			color: $heading-color;
+		}
+
+		a:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+/* Widget Newsletter 
+-------------------------------------------------------*/
+.sidebar .widget_mc4wp_form_widget {
+	border: 1px solid $border-color;
+	padding: 28px 24px;
+}
+
+.mc4wp-form-fields {
+	position: relative;
+
+	input[type="email"],
+	input[type="text"] {
+		margin-bottom: 8px;
+	}
+
+	input[type="submit"] {
+		margin-bottom: 0;
+		width: auto;
+	}
+}
+
+/* Widget Info
+-------------------------------------------------------*/
+.widget-info {
+	&__item:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		display: block;
+		font-weight: 600;
+		margin-bottom: 6px;
+		text-transform: uppercase;
+		font-size: 0.8125rem;
+	}
+}
+
+/* Widget Search
+-------------------------------------------------------*/
+.widget.widget_search,
+.widget.widget_product_search {
+	padding: 0;
+	border: 0;
+}
+
+.widget_search .search-input {
+	margin: 0;
+	background-color: #fff;
+}
+
+input.search-input {
+	font-weight: normal;
+}
+
+.widget-search-button,
+.search-form__button,
+.search-button,
+.woocommerce-product-search button[type="submit"] {
+	font-family: "amela";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 !important;
+	box-shadow: none;
+	background-color: transparent !important;
+	color: $text-color;
+	border: 0;
+	vertical-align: middle;
+
+	&:focus {
+		background-color: inherit;
+		color: inherit;
+	}
+}
+
+.search-form {
+	position: relative;
+
+	.widget-search-button,
+	.search-form__button,
+	.search-button,
+	.woocommerce-product-search button[type="submit"] {
+		border-radius: 0;
+		font-size: 1rem;
+	}
+}
+
+// Block search
+.wp-block-search {
+	.wp-block-search__input {
+		border-color: $border-color;
+		margin-bottom: 0;
+		background-color: #fff;
+	}
+
+	.wp-block-search__button {
+		border-color: $border-color;
+		font-size: 0.9375rem;
+		padding: 0.375em 1em;
+	}
+}
+
+/* Widget Tags / Entry Tags
+-------------------------------------------------------*/
+.widget_tag_cloud .tagcloud a,
+.widget_tag_cloud .wp-block-tag-cloud a,
+.entry__tags a,
+.widget_product_tag_cloud a {
+	line-height: 1;
+	margin: 0 5px 5px 0;
+	padding: 6px 14px;
+	font-size: 0.8125rem !important;
+	font-weight: 600;
+	border-radius: 26px;
+	background-color: $bg-dark;
+	color: #fff;
+	float: left;
+	@include transition(all 0.1s ease-in-out);
+
+	&:hover {
+		text-decoration: none;
+		background-color: $primary-color;
+		border-color: transparent;
+		color: #fff;
+	}
+}
+
+.tagcloud {
+	overflow: hidden;
+}
+
+/* Widget Blocks
+-------------------------------------------------------*/
+.widget_block {
+	.wp-block-group__inner-container > h2 {
+		font-size: 0.875rem;
+		font-family: $body-font;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+}
+
+.wp-block-latest-comments__comment {
+	line-height: 1.5;
+}

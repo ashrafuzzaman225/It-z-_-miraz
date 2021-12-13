@@ -1,0 +1,1660 @@
+# Copyright (C) 2021 amela
+# This file is distributed under the same license as the amela package.
+msgid ""
+msgstr ""
+"Project-Id-Version: amela\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: DeoThemes <hello@deothemes.com>\n"
+"Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
+"Report-Msgid-Bugs-To: https://deothemes/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/amela/404.php:11, wp-content/themes/amela/includes/customizer/modules/page-404.php:28
+msgid "Sorry this page isn’t available"
+msgstr ""
+
+#: wp-content/themes/amela/404.php:12, wp-content/themes/amela/includes/customizer/modules/page-404.php:37
+msgid "The page you were looking for couldn’t be found."
+msgstr ""
+
+#: wp-content/themes/amela/404.php:13, wp-content/themes/amela/includes/customizer/modules/page-404.php:46
+msgid "Back to Homepage"
+msgstr ""
+
+#: wp-content/themes/amela/404.php:33
+msgid "404 Page Not Found"
+msgstr ""
+
+#: wp-content/themes/amela/404.php:38
+msgid "404"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:32
+msgid "No comments"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:33, wp-content/themes/amela/includes/template-tags.php:108
+msgid "1 Comment"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:34
+msgid "% Comments"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:71
+msgid "Name"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:74, wp-content/themes/amela/includes/customizer/modules/blog.php:298, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:120
+msgid "Email"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:77
+msgid "Website"
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:81
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: wp-content/themes/amela/comments.php:89
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: wp-content/themes/amela/header.php:27
+msgid "Skip to Content"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:19
+msgid "Amela Getting Started"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:20, wp-content/themes/amela/includes/admin/theme-admin.php:220
+msgid "Amela"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:52, wp-content/themes/amela/includes/customizer/customizer.php:439
+msgid "Logo"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:57, wp-content/themes/amela/includes/customizer/customizer.php:427
+msgid "Header"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:62, wp-content/themes/amela/includes/customizer/customizer.php:463
+msgid "Footer"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:67, wp-content/themes/amela/includes/customizer/customizer.php:469
+msgid "Layout"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:72, wp-content/themes/amela/includes/customizer/customizer.php:519
+msgid "Colors"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:77, wp-content/themes/amela/includes/customizer/customizer.php:525
+msgid "Typography"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:82
+msgid "Customizer"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:87
+msgid "Documentation"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:92
+msgid "Support"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:100
+msgid "Theme Templates"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:106
+msgid "Adobe Fonts"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:112
+msgid "Google Map"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:122
+msgid "Theme Installation"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:131
+msgid "Color Editing"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:140, wp-content/themes/amela/includes/admin/theme-admin.php:162
+msgid "Product Builder"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:149
+msgid "Header / Footer Builder"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:156, wp-content/themes/amela/includes/admin/theme-admin.php:169, wp-content/themes/amela/includes/admin/theme-admin.php:182, wp-content/themes/amela/includes/admin/theme-admin.php:195, wp-content/themes/amela/includes/admin/theme-admin.php:208
+msgid "Learn More &#187;"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:175
+msgid "Mega Menu Builder"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:188
+msgid "Page Layout"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:201
+msgid "GDPR Tools"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:224
+msgid "Modern eCommerce Theme"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:235
+msgid "Getting Started"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:237
+msgid "Amela is now installed and ready to use. Get ready to build something beautiful. To get started check the links below. We hope you enjoy it!"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:240
+msgid "What is next?"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:243
+msgid "Install and activate all the %1$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:247
+msgid "required plugins"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:256
+msgid "Import demo content"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:284
+msgid "Video Tutorials"
+msgstr ""
+
+#: wp-content/themes/amela/includes/admin/theme-admin.php:303
+msgid "Useful Links"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:268
+msgid "Browse:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:269
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:270
+msgid "Home"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:271
+msgid "404 Not Found"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:272
+msgid "Archives"
+msgstr ""
+
+#. translators: %s is the search query.
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:274
+msgid "Search results for: %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:276
+msgid "Page %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:278
+msgid "Comment Page %s"
+msgstr ""
+
+#. translators: Minute archive title. %s is the minute time format.
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:280
+msgid "Minute %s"
+msgstr ""
+
+#. translators: Weekly archive title. %s is the week date format.
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:282
+msgid "Week %s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:742
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:759
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:776
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:792, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:821, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:848, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:875, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:1215
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:793, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:849, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:1219
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:794, wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:1223
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-breadcrumb-trail.php:822
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-walker-comment.php:33
+msgid "Post author"
+msgstr ""
+
+#. translators: 1: comment date, 2: comment time
+#: wp-content/themes/amela/includes/class-amela-walker-comment.php:41
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-walker-comment.php:45
+msgid "Edit"
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-walker-comment.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content/themes/amela/includes/class-amela-walker-nav-menu.php:64
+msgid "Show sub menu"
+msgstr ""
+
+#: wp-content/themes/amela/includes/compatibility/woocommerce/woocommerce-theme-functions.php:108
+msgid "View my shopping cart"
+msgstr ""
+
+#: wp-content/themes/amela/includes/compatibility/woocommerce/woocommerce-theme-functions.php:120
+msgid "Cart"
+msgstr ""
+
+#: wp-content/themes/amela/includes/compatibility/woocommerce/woocommerce-theme-functions.php:122
+msgid "Close offcanvas panel"
+msgstr ""
+
+#: wp-content/themes/amela/includes/compatibility/woocommerce/woocommerce-theme-functions.php:383
+msgid "Share"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:19
+msgid "Background Styles"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:391
+msgid "General"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:397
+msgid "Form Elements"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:403
+msgid "Preloader"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:409
+msgid "Newsletter Pop-up"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:415
+msgid "Back to Top"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:421
+msgid "Header & Logo"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:433
+msgid "Mobile Header"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:445, wp-content/themes/amela/includes/theme-setup.php:106
+msgid "Primary Menu"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:451
+msgid "Top Bar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:457
+msgid "Vertical Header"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:475
+msgid "Content"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:481, wp-content/themes/amela/includes/customizer/customizer.php:531
+msgid "Blog"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:482
+msgid "Layout options for the blog pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:488, wp-content/themes/amela/includes/template-tags.php:225, wp-content/themes/amela/includes/template-tags.php:267
+msgid "Page"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:489
+msgid "Layout options for the regular pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:495
+msgid "Archive"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:496
+msgid "Layout options for archive and categories pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:503
+msgid "Shop"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:504
+msgid "Layout options for shop catalog pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:511
+msgid "Search Results"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:512
+msgid "Layout options for search result page"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:537
+msgid "Post Meta"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:538
+msgid "These options will apply to the default WordPress posts. Customize Elementor widgets post meta via Elementor."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:544
+msgid "Single Post"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:550
+msgid "Social Share Buttons"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:556, wp-content/themes/amela/includes/theme-setup.php:204
+msgid "Newsletter"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:562
+msgid "Excerpt"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:568, wp-content/themes/amela/includes/customizer/modules/blog.php:374, wp-content/themes/amela/includes/template-parts.php:488
+msgid "Read More"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:574
+msgid "Page Title / Breadcrumbs"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:580
+msgid "Socials"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:586
+msgid "GDPR"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:587
+msgid "Settings for GDPR compliance."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:593
+msgid "Page 404"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:594
+msgid "Settings for page 404"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/customizer.php:601
+msgid "Social share buttons"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:22
+msgid "Show meta category"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:31
+msgid "Show meta date"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:40
+msgid "Show meta author"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:54
+msgid "Show post excerpt"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:63
+msgid "Posts excerpt length"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:82
+msgid "Show post title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:91
+msgid "Show featured image"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:100
+msgid "Show category"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:109
+msgid "Show date"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:118
+msgid "Show author"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:127
+msgid "Show comments"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:136
+msgid "Show tags"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:145
+msgid "Show author box"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:154
+msgid "Show post navigation"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:164
+msgid "Related Posts"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:171
+msgid "Show related posts"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:180
+msgid "Related by"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:184
+msgid "Category"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:185
+msgid "Tag"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:186
+msgid "Author"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:199, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:21
+msgid "Show share buttons"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:208, wp-content/themes/amela/includes/customizer/modules/socials.php:21, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:30
+msgid "Facebook"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:217, wp-content/themes/amela/includes/customizer/modules/socials.php:28, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:39
+msgid "Twitter"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:226, wp-content/themes/amela/includes/customizer/modules/socials.php:56, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:48
+msgid "Linkedin"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:235, wp-content/themes/amela/includes/customizer/modules/socials.php:35, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:57
+msgid "Pinterest"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:244, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:66
+msgid "Pocket"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:253, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:75
+msgid "Facebook Messenger"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:262, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:84
+msgid "Whatsapp"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:271, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:93
+msgid "Viber"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:280, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:102
+msgid "Telegram"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:289, wp-content/themes/amela/includes/customizer/modules/socials.php:70, wp-content/themes/amela/includes/customizer/modules/woocommerce.php:111
+msgid "Reddit"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:314
+msgid "Show newsletter box"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:323, wp-content/themes/amela/includes/customizer/modules/general.php:88
+msgid "Image"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:338, wp-content/themes/amela/includes/customizer/modules/general.php:105
+msgid "Title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:340, wp-content/themes/amela/includes/template-parts.php:537
+msgid "Sign up now & get 10% off"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:347, wp-content/themes/amela/includes/customizer/modules/colors.php:117, wp-content/themes/amela/includes/customizer/modules/general.php:114
+msgid "Text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:349, wp-content/themes/amela/includes/template-parts.php:538
+msgid "Be the first to know about our new arrivals and exclusive offers."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:363
+msgid "Show read more"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/blog.php:372
+msgid "Read more text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/colors.php:22
+msgid "Primary"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/colors.php:82
+msgid "Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/colors.php:158
+msgid "Text light"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/colors.php:175
+msgid "Borders"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/colors.php:201
+msgid "Background light"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:21
+msgid "To edit custom Elementor footer template navigate to %1$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:25, wp-content/themes/amela/includes/customizer/modules/header.php:33
+msgid "Theme Templates."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:36
+msgid "Show default footer"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:45
+msgid "Show footer widgets"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:61
+msgid "Number of columns"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:65, wp-content/themes/amela/includes/customizer/modules/layout.php:74, wp-content/themes/amela/includes/customizer/modules/layout.php:117, wp-content/themes/amela/includes/customizer/modules/layout.php:181
+msgid "1 Column"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:66, wp-content/themes/amela/includes/customizer/modules/layout.php:75, wp-content/themes/amela/includes/customizer/modules/layout.php:118, wp-content/themes/amela/includes/customizer/modules/layout.php:182
+msgid "2 Columns"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:67, wp-content/themes/amela/includes/customizer/modules/layout.php:76, wp-content/themes/amela/includes/customizer/modules/layout.php:119, wp-content/themes/amela/includes/customizer/modules/layout.php:183
+msgid "3 Columns"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:68, wp-content/themes/amela/includes/customizer/modules/layout.php:77, wp-content/themes/amela/includes/customizer/modules/layout.php:120, wp-content/themes/amela/includes/customizer/modules/layout.php:184
+msgid "4 Columns"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:84
+msgid "Bottom footer text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:85
+msgid "Allowed HTML: a, span, i, em, strong"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/footer.php:87, wp-content/themes/amela/includes/template-parts.php:515, wp-content/themes/amela/template-parts/footer/footer-main-template.php:17
+msgid "Copyright &copy; [current-year] %1$s | Made by %2$sDeoThemes%3$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:18
+msgid "Show cookies consent notification bar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:27
+msgid "Cookies message text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:29
+msgid "We are using cookies to personalize content and ads to make our site easier for you to use."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:36
+msgid "Cookies button text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:38
+msgid "Agree"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:45
+msgid "Cookies learn more text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:47
+msgid "Learn More"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/gdpr.php:54
+msgid "Cookies learn more URL"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:18
+msgid "Enable/Disable theme preloader"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:27
+msgid "Back to top arrow"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:36
+msgid "Show newsletter pop-up"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:45
+msgid "Action after pop-up close"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:49
+msgid "Show on every visit (session)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:50
+msgid "Do not show on every visit (cookies)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:65
+msgid "Expiration (days)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:66
+msgid "How many days to store cookies"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:107
+msgid "Join our newsletter and	get 20% discount"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:116
+msgid "We promise we won't write to you often, only for the fun stuff."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/general.php:123
+msgid "Form shortcode"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:17
+msgid "Upload logo"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:29
+msgid "To edit custom Elementor header template navigate to %1$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:44
+msgid "Show default header"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:53
+msgid "Sticky header"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:54
+msgid "Will apply only on big screens"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:71
+msgid "Header container width"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:101
+msgid "Header height"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:143
+msgid "Header sticky height"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:179
+msgid "Header mobile height"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:216
+msgid "Header logo width"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:238
+msgid "Header logo sticky width"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:260
+msgid "Menu text links horizontal spacing"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:298
+msgid "Last menu item"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:305
+msgid "Search"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:315
+msgid "Shopping Cart"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:324
+msgid "Account"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:335
+msgid "HTML"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:344
+msgid "Text / HTML / Shortcode"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:362
+msgid "Hide last menu item on mobile"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:372
+msgid "Show top bar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:382
+msgid "Top bar meesage"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:383
+msgid "Allowed HTML: a, img, span, i, em, strong"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:384, wp-content/themes/amela/includes/template-parts.php:179
+msgid "Free Shipping & Returns On All US Orders"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:400
+msgid "Top bar URL"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:431
+msgid "Vertical header width"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:432
+msgid "Applies above 1200px breakpoint."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:467
+msgid "Vertical header position"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:471
+msgid "Left"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/header.php:472
+msgid "Right"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:17
+msgid "Container Width (px)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:41
+msgid "Blog layout type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:55
+msgid "Single post layout type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:69, wp-content/themes/amela/includes/customizer/modules/layout.php:113, wp-content/themes/amela/includes/customizer/modules/layout.php:177
+msgid "Columns"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:70
+msgid "Use this option for regular blog pages, such as homepage"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:85, wp-content/themes/amela/includes/customizer/modules/layout.php:99, wp-content/themes/amela/includes/customizer/modules/layout.php:163
+msgid "Layout type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:131
+msgid "Shop layout type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:132
+msgid "Make sure that your Shop sidebar has widgets."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:146
+msgid "Shop pages layout type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/layout.php:147
+msgid "Applies on Cart, Checkout and My Account pages. This setting will not have any effect if you are using custom metaboxes in Pro version."
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-404.php:17
+msgid "Page 404 image"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-404.php:26
+msgid "Page 404 title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-404.php:35
+msgid "Page 404 description text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-404.php:44
+msgid "Page 404 button text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:21
+msgid "Show page title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:30
+msgid "Show breadcrumbs on regular pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:39
+msgid "Show breadcrumbs on archives"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:48
+msgid "Show breadcrumbs on search results"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:57
+msgid "Show breadcrumbs on single post"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:66
+msgid "Show breadcrumbs on shop pages"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/page-title.php:76
+msgid "Page title top/bottom padding"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:42
+msgid "Instagram"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:49
+msgid "Snapchat"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:63
+msgid "Tumblr"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:77
+msgid "Behance"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:84
+msgid "Vkontakte"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:91
+msgid "Youtube"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:98
+msgid "Vimeo"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/socials.php:105
+msgid "RSS"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:30
+msgid "Base font"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:84
+msgid "Headings font"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:117
+msgid "H1 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:141
+msgid "H2 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:164
+msgid "H3 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:187
+msgid "H4 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:210
+msgid "H5 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:233
+msgid "H6 Headings"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:257
+msgid "Post article text"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:286
+msgid "Buttons"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:316
+msgid "Menu links"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/typography.php:338
+msgid "Dropdown menu links"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:130
+msgid "Display Product Elements"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:137
+msgid "Show sale badge"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:146
+msgid "Show title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:155
+msgid "Show rating"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:164
+msgid "Show price"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:173
+msgid "Show add to cart button"
+msgstr ""
+
+#: wp-content/themes/amela/includes/customizer/modules/woocommerce.php:183
+msgid "Distraction free checkout"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-parts.php:113
+msgid "Open Search"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-parts.php:121
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-parts.php:122, wp-content/themes/amela/searchform.php:14
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-parts.php:216
+msgid "Toggle navigation"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-parts.php:318
+msgid "Back to top"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:80
+msgctxt "post author"
+msgid "by"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:112
+msgid "Comments are closed"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:106
+msgid " Comments"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:104
+msgid "0 Comments"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:163
+msgid "Related Articles"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:223
+msgid "Page pagination"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:223
+msgid "Pages:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:251
+msgid "Previous Page"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:256
+msgid "Next Page"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:262
+msgid "Posts pagination"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:296
+msgid "Post navigation"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:304
+msgid "Previous Post"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:305
+msgctxt "Next post link"
+msgid "%title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:316
+msgid "Next Post"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:317
+msgctxt "Previous post link"
+msgid "%title"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:378
+msgid "Author's Facebook (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:384
+msgid "Author's Twitter (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:390
+msgid "Author's LinkedIn (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:396
+msgid "Author's Instagram (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:402
+msgid "Author' YouTube (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:408
+msgid "Author's Vimeo (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/template-tags.php:414
+msgid "Author's Github (opens in new window)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:340, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:137
+msgid "Install Required Plugins"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:341, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:138
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:343, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:139
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:345, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:140
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:346, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:141
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:348
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:354
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:360
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:366
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:372
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:378
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:398, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:142
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:400, wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3311, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:143
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:401, wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3103, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:144
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:403, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:145
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:405, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:146
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:407, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:147
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:408, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:148
+msgid "Dismiss this notice"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:409, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:149
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:410, wp-content/themes/amela/includes/tgmpa/tgm-plugin-activation.php:150
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:1052, wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:1243, wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2112
+msgid "TGMPA v%s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2490
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2536
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2540
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2544
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2548
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2756
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2762
+msgid "Activate %2$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2751
+msgid "Install %2$s"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3658
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3660
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3674
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3677
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3666
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3669
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: wp-content/themes/amela/includes/tgmpa/class-tgm-plugin-activation.php:3655
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:61
+msgid "blue"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:66
+msgid "orange"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:71
+msgid "dark"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:76
+msgid "silver"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:81
+msgid "white"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:86
+msgid "black"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:173
+msgid "Blog Sidebar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:182
+msgid "Page Sidebar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:193
+msgid "Shop Sidebar"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:213
+msgid "Footer Column 1"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:222
+msgid "Footer Column 2"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:231
+msgid "Footer Column 3"
+msgstr ""
+
+#: wp-content/themes/amela/includes/theme-setup.php:240
+msgid "Footer Column 4"
+msgstr ""
+
+#: wp-content/themes/amela/searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: wp-content/themes/amela/searchform.php:16
+msgid "search button"
+msgstr ""
+
+#: wp-content/themes/amela/template-parts/content-none.php:13
+msgid "There is no content to display"
+msgstr ""
+
+#: wp-content/themes/amela/template-parts/content-none.php:14
+msgid "Don't fret! Let's get you back on track. Perhaps searching can help"
+msgstr ""
+
+#: wp-content/themes/amela/template-parts/header/header-checkout-template.php:36
+msgid "Back to Cart"
+msgstr ""
+
+#: wp-content/themes/amela/template-parts/header/header-main-template.php:31
+msgid "Primary menu"
+msgstr ""
+
+#: wp-content/themes/amela/template-parts/page-title/page-title-search.php:26
+msgid "Search Results for: %s"
+msgstr ""

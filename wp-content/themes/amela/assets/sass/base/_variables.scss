@@ -1,0 +1,74 @@
+// Colors
+$primary-color: #ee8d87;
+$primary-color--light: #fae1e0;
+$meta-color: #686868;
+$text-color: #313131;
+$text-color--light: #818181;
+$heading-color: #000000;
+$nav-links-color: #313131;
+$bg-light: #f5f5f5;
+$bg-dark: #000000;
+$border-color: #e7e7e7;
+$border-color--dark: #323232;
+$post-link-color: #ee8d87;
+
+// Fonts
+$body-font: "Open Sans", sans-serif;
+$heading-font: "Prata", serif;
+
+// Navbar
+$nav-height: 88px;
+
+// Grid
+$container-width: 1300px;
+$container-width--lg: 960px;
+
+// Transitions
+$transition-all: all 0.2s cubic-bezier(0.43, 0.07, 0.61, 0.95);
+$transition: 0.2s cubic-bezier(0.43, 0.07, 0.61, 0.95);
+
+// Heading Sizes
+$h1-size: 2.375rem;
+$h2-size: 2rem;
+$h3-size: 1.75rem;
+$h4-size: 1.5rem;
+$h5-size: 1.25rem;
+$h6-size: 1rem;
+
+$h1-size--sm-down: 2rem;
+$h2-size--sm-down: 1.7rem;
+$h3-size--sm-down: 1.5rem;
+$h4-size--sm-down: 1.35rem;
+
+// Box Shadow
+$box-shadow: 0px 20px 40px 0px rgba(60, 65, 83, 0.1);
+
+// Buttons
+$btn-border-radius: 0;
+
+// Editor
+$block-short-width: 840px;
+$block-wide-width: 840px;
+$post-text-font-size: 1.125rem;
+$post-title-font-size--xl-up: 3rem;
+$post-title-font-size--lg-up: 2.625rem;
+
+$left-sidebar: ".amela-left-sidebar";
+$right-sidebar: ".amela-right-sidebar";
+$fullwidth: ".amela-fullwidth";
+
+// Blockquotes / Pullquotes
+$blockquote-text-font-size: 1.5rem;
+$blockquote-text-font-size--large: 2rem;
+$blockquote-text-line-height: 1.6;
+$blockquote-citation-font-size: 0.875rem;
+$blockquote-citation-font-size--large: 1rem;
+
+$pullquote-text-font-size: 1rem;
+$pullquote-text-font-size--small: 1.25rem;
+
+// Colors
+$editor-color-1: #ee8d87; // blue
+$editor-color-2: #d6763c; // orange
+$editor-color-3: #0c0c0c; // dark
+$editor-color-4: #fbfbfb; // silver
